@@ -1,0 +1,16 @@
+/* write your css here */
+#upper-background {
+  background-image: url(../src/assets/asset\ 7.jpeg);
+  height: 100vh;
+  max-width: 100vw;
+  background-size: cover;
+  overflow: hidden;
+}
+@keyframes circular {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
