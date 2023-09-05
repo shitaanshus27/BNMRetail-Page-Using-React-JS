@@ -13,11 +13,11 @@ const ContactUs = () => {
         </p>
       </div>
       <form
-        className="max-w-[70%] overflow-hidden bg-white rounded-2xl p-6  opacity-70 "
+        className="max-w-full overflow-hidden bg-white rounded-2xl p-6 opacity-70  md:max-w-[70%]"
         data-aos="fade-up"
       >
         <div className="flex">
-          <div>
+          <div className="max-w-[50%]">
             <label
               htmlFor="firstName"
               className="font-semibold text-gray-500 text-sm"
@@ -34,7 +34,7 @@ const ContactUs = () => {
               className="max-w-[90%] border-2 rounded-md p-3 mt-2"
             />
           </div>
-          <div>
+          <div className="max-w-[50%]">
             <label
               htmlFor="lastName"
               className="font-semibold text-sm  text-gray-500"
