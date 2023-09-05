@@ -20,7 +20,7 @@ const AboutUs = () => {
       </div>
       <div
         data-aos="fade-up"
-        className="md:max-w-[40%] flex flex-col justify-center gap-10 p-6 text-sm text-gray-600 tracking-wider"
+        className="md:max-w-[40%] w-full flex flex-col justify-center gap-10 md:p-6 p-1 text-sm text-gray-600 tracking-wider"
       >
         <div className="flex flex-col gap-2">
           <h1 className=" text-gray-700 text-4xl font-extrabold">About Us</h1>
@@ -46,7 +46,7 @@ const AboutUs = () => {
         <div className="flex gap-4 w-full">
           <div className=" bg-slate-300 w-[100%]  rounded-lg flex flx items-center p-4 gap-4">
             <div>
-              <FaMedapps className=" text-white bg-green-800 rounded-md w-10 h-10 p-2" />
+              <FaMedapps className=" text-white bg-green-800 rounded-md md:w-10 md:h-10 w-8 h-8 p-2" />
             </div>
             <div className="flex flex-col gap-2">
               <h1 className="font-bold text-black text-sm">Unique & Safe</h1>
@@ -55,7 +55,7 @@ const AboutUs = () => {
           </div>
           <div className=" bg-slate-300 w-[100%]  rounded-lg flex items-center p-4 gap-4">
             <div>
-              <FaLeaf className=" text-white bg-green-800 rounded-md w-10 h-10 p-2" />
+              <FaLeaf className=" text-white bg-green-800 rounded-md md:w-10 md:h-10 w-8 h-8 p-2" />
             </div>
             <div className="flex flex-col gap-2">
               <h1 className="font-bold text-black text-sm">Pocket Friendly</h1>

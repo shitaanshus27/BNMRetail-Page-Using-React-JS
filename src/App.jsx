@@ -10,6 +10,8 @@ import MD from "./Components/MD";
 import Choose from "./Components/Choose";
 import Care from "./Components/Care";
 import Brands from "./Components/Brands";
+import ContactForm from "./Components/ContactForm";
+import Footer from "./Components/Footer";
 //import { useState } from "react";
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
       <Choose id={id} />
       <Care />
       <Brands />
+      <ContactForm />
+      <Footer />
     </>
   );
 }

@@ -3,7 +3,7 @@ import logo from "../assets/category.png";
 import Button from "./Button";
 const Care = () => {
   return (
-    <div className="w-11/12 max-w-[1168px] md:p-10 mx-auto flex md:flex-row flex-col  gap-8">
+    <div className="w-11/12 max-w-[1168px] md:p-10 mx-auto flex md:flex-row flex-col p-4  gap-8">
       <div className="md:max-w-[50%]">
         <img src={logo} className="rounded-3xl"></img>
       </div>
@@ -23,7 +23,7 @@ const Care = () => {
           Bag, etc. Our current strength is 250+ employees and 4 Warehouses
           across India.
         </p>
-        <div className="w-[40%]">
+        <div className="md:w-[40%] w-[20%]">
           <Button buttontxt="Contact Us" />
         </div>
       </div>
