@@ -3,16 +3,16 @@ import { FaSuitcase } from "react-icons/fa6";
 const Choose = (props) => {
   return (
     <div id={props.id} className=" bg-green-100">
-      <div className="w-11/12 max-w-[1168px] p-10 mx-auto">
+      <div className="w-11/12 max-w-[1168px] md:p-10 pt-5 pb-5 mx-auto">
         <div
           className="flex justify-center items-center flex-col gap-4 w-[90%] mx-auto"
           data-aos="fade-up"
         >
           <h6 className="font-bold text-gray-400">ANSWERS TO YOUR WHY</h6>
-          <h1 className="text-gray-700 text-4xl font-extrabold">
+          <h1 className="text-gray-700 md:text-4xl text-xl font-extrabold">
             Amazing Reasons To Choose Us
           </h1>
-          <div className="max-w-[80%] flex flex-col justify-center gap-10 p-6 text-sm text-gray-600 tracking-wider">
+          <div className="max-w-[80%] flex flex-col justify-center gap-10 md:p-6 pb-4 text-sm text-gray-600 tracking-wider">
             <p>
               From finding the right natural ingredients to developing, testing
               and finally demonstrating how to use the product correctly, we are

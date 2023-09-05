@@ -43,8 +43,8 @@ const AboutUs = () => {
           goodness isn’t a superpower or a special gift, it’s inside all of us
           and it shows in the little choices we make.
         </p>
-        <div className="flex gap-4 w-full">
-          <div className=" bg-slate-300 w-[100%]  rounded-lg flex flx items-center p-4 gap-4">
+        <div className="flex md:flex-row flex-col gap-4 w-full">
+          <div className=" bg-slate-300 w-[100%]  rounded-lg flex  items-center p-4 gap-4">
             <div>
               <FaMedapps className=" text-white bg-green-800 rounded-md md:w-10 md:h-10 w-8 h-8 p-2" />
             </div>

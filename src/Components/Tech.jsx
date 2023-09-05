@@ -16,7 +16,7 @@ const Tech = () => {
             <div className="w-[25%] h-2 bg-yellow-300"></div>
           </div>
           <div>
-            <div className="text-white bg-blue-600 w-[30%] text-lg flex justify-center items-center rounded-md p-2">
+            <div className="text-white bg-blue-600 w-[30%] md:text-lg text-sm flex justify-center items-center rounded-md p-2">
               Our Mission
             </div>
             <div className="text-white bg-blue-600 md:w-[40%] md:h-20 md:text-sm text-lg flex justify-center items-center rounded-md p-4 absolute md:-right-24 md:top-32 right-24 bottom-2 z-10">

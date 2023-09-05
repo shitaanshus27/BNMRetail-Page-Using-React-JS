@@ -3,8 +3,8 @@ import { HiOutlineGlobeAlt } from "react-icons/hi";
 import { AiFillClockCircle } from "react-icons/ai";
 const ContactForm = () => {
   return (
-    <div className="w-11/12 max-w-[1168px] md:p-8 mx-auto flex md:flex-row flex-col p-6 gap-2">
-      <div className="md:max-w-[45%] flex flex-col gap-4 bg-green-400 p-4 text-white rounded-3xl">
+    <div className="w-11/12 max-w-[1168px] md:p-8  mx-auto flex md:flex-row flex-col p-2 gap-2">
+      <div className="md:max-w-[45%] flex flex-col gap-4 bg-green-500 p-4 text-white rounded-3xl">
         <h1 className="text-4xl font-bold">Contact Us</h1>
         <p className="text-lg">
           Our friendly support team is ready and excited to answer your

@@ -9,7 +9,7 @@ const MD = () => {
     <div>
       <div className="flex w-11/12 max-w-[1168px] p-10 mx-auto gap-20 md:flex-row flex-col">
         <div
-          className="md:max-w-[40%] p-6 flex flex-col justify-center text-sm text-gray-600 tracking-wider gap-10 "
+          className="md:max-w-[40%] md:p-6 flex flex-col justify-center text-sm text-gray-600 tracking-wider gap-10 "
           data-aos="fade-up"
         >
           <div>
@@ -36,7 +36,7 @@ const MD = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="rounded-md md:max-w-[50%] md:max-h-[50%] p-6"
+          className="rounded-md md:max-w-[50%] md:max-h-[50%] md:p-6"
         >
           <img
             src={logo}
@@ -45,7 +45,10 @@ const MD = () => {
           ></img>
         </div>
       </div>
-      <div className="w-11/12 max-w-[1168px] p-10 mx-auto" data-aos="fade-up">
+      <div
+        className="w-11/12 max-w-[1168px] md:p-10 pb-2 mx-auto"
+        data-aos="fade-up"
+      >
         <img
           src={logo1}
           alt="About-us-pic"

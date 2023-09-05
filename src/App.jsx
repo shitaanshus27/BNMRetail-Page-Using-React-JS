@@ -12,6 +12,7 @@ import Care from "./Components/Care";
 import Brands from "./Components/Brands";
 import ContactForm from "./Components/ContactForm";
 import Footer from "./Components/Footer";
+import Sell from "./Components/Sell";
 //import { useState } from "react";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   const [id, setId] = useState("");
   return (
     <>
+      <Sell />
       <div id="upper-background">
         <Navbar
           isContact={isContact}
