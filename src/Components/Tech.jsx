@@ -3,7 +3,7 @@ import logo from "../assets/Tech.png";
 
 const Tech = () => {
   return (
-    <div className=" bg-green-100">
+    <div id="tech" className=" bg-green-100">
       <div className="w-11/12 max-w-[1168px] p-6 mx-auto flex md:flex-row flex-col gap-20 relative">
         <div
           data-aos="fade-up"

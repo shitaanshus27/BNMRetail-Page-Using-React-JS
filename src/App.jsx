@@ -20,7 +20,7 @@ function App() {
   const [id, setId] = useState("");
   return (
     <>
-      <Sell />
+      {/* <Sell /> */}
       <div id="upper-background">
         <Navbar
           isContact={isContact}
@@ -41,7 +41,7 @@ function App() {
       <AboutUs />
       <Tech />
       <MD />
-      <Choose id={id} />
+      <Choose />
       <Care />
       <Brands />
       <ContactForm />

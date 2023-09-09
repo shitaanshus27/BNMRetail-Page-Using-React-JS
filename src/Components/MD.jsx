@@ -6,7 +6,7 @@ import { BiSolidQuoteLeft, BiSolidQuoteRight } from "react-icons/bi";
 
 const MD = () => {
   return (
-    <div>
+    <div id="md">
       <div className="flex w-11/12 max-w-[1168px] p-10 mx-auto gap-20 md:flex-row flex-col">
         <div
           className="md:max-w-[40%] md:p-6 flex flex-col justify-center text-sm text-gray-600 tracking-wider gap-10 "

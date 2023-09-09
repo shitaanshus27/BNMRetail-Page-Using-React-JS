@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/Logo.png";
 import Button from "./Button";
-//import AboutUs from "./AboutUs";
+import ScrollIntoView from "react-scroll-into-view";
 const Navbar = (props) => {
   return (
     <div className="flex md:items-center md:flex-row flex-col justify-between gap-4 w-11/12 max-w-[1168px] p-6 mx-auto">
@@ -18,61 +18,71 @@ const Navbar = (props) => {
         </div>
       </Link>
       <ul className="flex text-white font-bold md:text-lg text-base md:gap-x-8 gap-x-2 items-center md:flex-row flex-col">
-        <li>
-          <Link
-            to={"/#aboutus"}
-            onClick={() => {
-              props.setContact(false);
-            }}
-            className="hover:text-yellow-300"
-          >
-            About Us
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            onClick={() => {
-              props.setContact(false);
-            }}
-            className="hover:text-yellow-300"
-          >
-            Our Mission
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            onClick={() => {
-              props.setContact(false);
-            }}
-            className="hover:text-yellow-300"
-          >
-            Why Choose Us
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            onClick={() => {
-              props.setContact(false);
-            }}
-            className="hover:text-yellow-300"
-          >
-            Our Brands
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            onClick={() => {
-              props.setContact(false);
-            }}
-            className="hover:text-yellow-300"
-          >
-            Contacts US
-          </Link>
-        </li>
+        <ScrollIntoView selector="#aboutus">
+          <li>
+            <Link
+              to={"/"}
+              onClick={() => {
+                props.setContact(false);
+              }}
+              className="hover:text-yellow-300"
+            >
+              About Us
+            </Link>
+          </li>
+        </ScrollIntoView>
+        <ScrollIntoView selector="#tech">
+          <li>
+            <Link
+              to="/"
+              onClick={() => {
+                props.setContact(false);
+              }}
+              className="hover:text-yellow-300"
+            >
+              Our Mission
+            </Link>
+          </li>
+        </ScrollIntoView>
+        <ScrollIntoView selector="#choice">
+          <li>
+            <Link
+              to="/"
+              onClick={() => {
+                props.setContact(false);
+              }}
+              className="hover:text-yellow-300"
+            >
+              Why Choose Us
+            </Link>
+          </li>
+        </ScrollIntoView>
+        <ScrollIntoView selector="#brands">
+          <li>
+            <Link
+              to="/"
+              onClick={() => {
+                props.setContact(false);
+              }}
+              className="hover:text-yellow-300"
+            >
+              Our Brands
+            </Link>
+          </li>
+        </ScrollIntoView>
+        <ScrollIntoView selector="#contactus">
+          <li>
+            <Link
+              to="/"
+              onClick={() => {
+                props.setContact(false);
+              }}
+              className="hover:text-yellow-300"
+            >
+              Contacts US
+            </Link>
+          </li>
+        </ScrollIntoView>
       </ul>
       <Link
         to="/contactus"

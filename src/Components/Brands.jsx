@@ -4,7 +4,7 @@ import logo from "../assets/asset 6.png";
 
 const Brands = () => {
   return (
-    <div className="bg-green-100 ">
+    <div id="brands" className="bg-green-100 ">
       <div className="w-11/12 max-w-[1168px] md:p-10 mx-auto flex md:flex-row  gap-8 justify-between items-center">
         <div className="max-w-[50%]">
           <div

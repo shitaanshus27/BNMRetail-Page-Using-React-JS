@@ -1,8 +1,8 @@
 import React from "react";
 import { FaSuitcase } from "react-icons/fa6";
-const Choose = (props) => {
+const Choose = () => {
   return (
-    <div id={props.id} className=" bg-green-100">
+    <div id="choice" className=" bg-green-100">
       <div className="w-11/12 max-w-[1168px] md:p-10 pt-5 pb-5 mx-auto">
         <div
           className="flex justify-center items-center flex-col gap-4 w-[90%] mx-auto"

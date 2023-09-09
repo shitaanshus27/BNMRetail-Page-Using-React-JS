@@ -1,7 +1,10 @@
 import React from "react";
 const ContactUs = () => {
   return (
-    <div className="flex md:flex-row flex-col gap-6 justify-between items-center">
+    <div
+      id="contactus"
+      className="flex md:flex-row flex-col gap-6 justify-between items-center"
+    >
       <div className="md:max-w-[25%] flex flex-col gap-4" data-aos="fade-up">
         <h1 className="text-white text-4xl font-bold">
           Looking To Join Baby & Mom Team?
